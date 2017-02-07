@@ -1,0 +1,155 @@
+@font-face {
+	font-family: "PF Din Text Pro-bold";
+	src: url("../fonts/pfdintextcondpro-bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PF Din Text Pro-boldital";
+	src: url("../fonts/pfdintextcondpro-boldital.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PF Din Text Pro-italic";
+	src: url("../fonts/pfdintextcondpro-italic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PF Din Text Pro-light";
+	src: url("../fonts/pfdintextcondpro-light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PF Din Text Pro-lightital";
+	src: url("../fonts/pfdintextcondpro-lightital.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PF Din Text Pro-medital";
+	src: url("../fonts/pfdintextcondpro-medital.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PF Din Text Pro-medium";
+	src: url("../fonts/pfdintextcondpro-medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PF Din Text Pro";
+	src: url("../fonts/pfdintextcondpro-regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PF Din Text Pro-thin";
+	src: url("../fonts/pfdintextcondpro-thin.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PF Din Text Pro-thinital";
+	src: url("../fonts/pfdintextcondpro-thinital.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PF Din Text Pro-xblack";
+	src: url("../fonts/pfdintextcondpro-xblack.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PF Din Text Pro-xblackital";
+	src: url("../fonts/pfdintextcondpro-xblackital.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PF Din Text Pro-xthin";
+	src: url("../fonts/pfdintextcondpro-xthin.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Phenomena-Black";
+	src: url("../fonts/Phenomena-Black.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Phenomena-Bold";
+	src: url("../fonts/Phenomena-Bold.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Phenomena-ExtraBold";
+	src: url("../fonts/Phenomena-ExtraBold.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Phenomena-ExtraLight";
+	src: url("../fonts/Phenomena-ExtraLight.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Phenomena-Light";
+	src: url("../fonts/Phenomena-Light.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}@font-face {
+	font-family: "Phenomena";
+	src: url("../fonts/Phenomena-Regular.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Phenomena-Thin";
+	src: url("../fonts/Phenomena-Thin.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PT Sans";
+	src: url("../fonts/ptsans.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PT Sans-bold";
+	src: url("../fonts/ptsans-bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PT Sans-bolditalic";
+	src: url("../fonts/ptsans-bolditalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PT Sans-italic";
+	src: url("../fonts/ptsans-italic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PT Sans-narrow";
+	src: url("../fonts/ptsans-narrow.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PT Sans-narrowbold";
+	src: url("../fonts/ptsans-narrowbold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+	<title>Гироскутеры Smart Balance</title>
+	<link href="img/favicon.ico" rel="icon" />
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/fonts.css"/>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/timer_script.js"></script>
+	<script src="js/maskedinput.min.js"></script>
+	<link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
+</head>
+<body>
+	<header>
+		<div class="block">
+			<div class="logo"><span>Оригинальные гироскутеры</span></div>
+			<div class="phone"><p>+7 (495) 244-56-67</p><span>Звоните ежедневно, круглосуточно</span></div>
+		</div>
+	</header>
+	<div class="slide1">
+		<div class="block">
+			<h1>Продажа оригинальных<br />гироскутеров Smart Balance!</h1>
+			<h2>Попробуй 14 дней бесплатно. Доставим в <span>г. Москва</span> уже сегодня</h2>
+            <div class="line"></div>
+			<div class="night_buy">
+				<div class="text">Мы тоже любим ночные покупки!<br />Получи специальную ночную скидку - 1000 рублей</div>
+				<div class="button"><a class="fancybox" href="#feedback_form">Закрепить за собой скидку</a></div>
+				<div class="text_small">Это ни к чему тебя не обязывает. До конца предложения:</div>
+				<div class="timer">
+                    <div class="timer_time">
+                        <div class="time1">3</div>
+                        <div class="dott">:</div>
+                        <div class="time2">45</div>
+                        <div class="dott">:</div>
+                        <div class="time3">52</div>
+                    </div>
+                    <div class="timer_name"><span>часа</span><span>минут</span><span>секунд</span></div>
+                </div>
+			</div>
+		</div>
+	</div>
+	<div class="slide2">
+		<div class="block">
+			<h2>Как взять крутой гироскутер и при этом<br />не переплатить?</h2>
+			<div class="razlichia">
+				<div class="minus">
+					<span class="head">Подделка</span>
+					<ul>
+						<li><span>Цена до 19000 руб.<br />Зачастую продавцы обманывают: указывают те же названия моделей и пишут о небывалых акциях.</span></li>
+						<li><span>Внешние отличия менее очевидны: гораздо более тонкий пластик, некачественная покраска (царапины, пузыри, трещины), часто отходят или не работают диоды в подсветке.</span></li>
+						<li><span>Внутреннюю составляющую проверить почти невозможно. Но в 95% случаев там ждёт отсутствие 3 платы, незагерметезированные контакты (очень высокая вероятность возгорания при контакте с водой), слабый аккумулятор (среднее количество циклов около 50-100, что крайне мало), электродвигатели плохого качества (моментально сгорают при повышенных нагрузках, крайне быстро сажают любую батарею).</span></li>
+						<li><span>Ужасный каркас корпуса, очень часто просто ломается посередине. Неотбалансированные колёса (дёргается при поездке)</span></li>
+					</ul>
+				</div>
+				<div class="plus">
+					<span class="head">Оригинал</span>
+					<ul>
+						<li><span>Цена от 19000 руб.<br />Акции могут быть, но в пределах нормы (как у нас :) ).</span></li>
+						<li><span>Внешне всё выглядит очень аккуратно и надёжно. Пластик не выглядит “хлюпеньким”, покраска идеальная, диоды светят ярко и стабильно.</span></li>
+						<li><span>Внутри одна из самых дорогих запчастей - материнская плата. Гироскутер должен моментально реагировать на все движения. Абсолютно все контакты загерметезированы и готовы к поездкам по лужам и в дождь. Аккумулятор - только Samsung (количество циклов 1000+), электродвигатели сделаны из более дорогих и надёжных материалов (позволяют подниматься даже в сильные горки, выдерживают до 120кг).</span></li>
+						<li><span>Аллюминевый каркас повышенной прочности не гнётся и не ломается даже под большими нагрузками. Колёса идеально отбалансированы.</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="slide3">
+		<div class="block">
+			<h2>Тем не менее, чтобы выжить, продавцы поддельных гироскутеров активно маскируются.</h2>
+            <div class="line"></div>
+			<h3>Если ты не знаешь кому верить - приезжай в наш шоурум, мы с удовольствием покажем<br /> наши гироскутеры изнутри и обязательно дадим прокатиться :)</h3>
+			<div class="button"><a class="fancybox" href="#feedback_form">Записаться к нам в шоурум</a></div>
+		</div>
+	</div>
+	<div class="slide4">
+		<div class="block">
+			<h2>Наш ассортимент гироскутеров Smart Balance</h2>
+			<div class="leftForm">
+				<div class="imgForm"><img src="img/model1.png"/></div>
+				<div class="tableForm">
+					<table>
+						<tr>
+							<td>Стоимость:<span id="cost"></span></td>
+							<td>В наличии на складе</td>
+						</tr>
+						<tr>
+							<td>Доставка до двери: <span>Бесплатно</span></td>
+							<td>Доставим сегодня</td>
+						</tr>
+						<tr>
+							<td>Полная гарантия: <span>1 год</span></td>
+							<td>14 дней на тест-двайв</td>
+						</tr>
+					</table>
+				</div>
+				<div class="button"> <a class="fancybox" href="#order_form">Заказать</a></div>
+			</div>
+			<div class="rightForm">
+				<div class="modelAll">
+					<div class="model n1" value="19 000"><span class="model_name">Wheel</span><br /><span class="descr">Универсальная модель (от 19 000 руб.)</span></div>
+					<div class="model n2" value="21 000"><span class="model_name">Transformer</span><br /><span class="descr">Стандартная модель (от 21 000 руб.)</span></div>
+					<div class="model n3" value="27 000"><span class="model_name">Genesis</span><br /><span class="descr">Комфотрная модель (от 27 000 руб.)</span></div>
+					<div class="model n4" value="19 000"><span class="model_name">Diamond</span><br /><span class="descr">Модель премиум-класса (от 19 000 руб.)</span></div>
+				</div>
+				<div class="modelSize">
+					<div class="modelS n1"><a>6<span>"</span></a></div>
+					<div class="modelS n2"><a>7<span>"</span></a></div>
+					<div class="modelS n3"><a>8<span>"</span></a></div>
+					<div class="modelS n4"><a>9<span>"</span></a></div>
+				</div>
+				<div class="colorModel">
+					<div class="modelC n1"><a></a></div>
+					<div class="modelC n2"><a></a></div>
+					<div class="modelC n3"><a></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="slide5">
+		<div class="block">
+			<h2>в чем отличительные особенности<br />наших гироскутеров</h2>
+			<div class="preim_1">
+                <div class="otl n1"><img src="img/preim1.png"/><br /><span>Справляются с любыми горками,<br /> бордюрами, неровностями</span></div>
+    			<div class="otl n2"><img src="img/preim2.png"/><br /><span>Очень легкое обучение +<br /> мы поможем</span></div>
+    			<div class="otl n3"><img src="img/preim3.png"/><br /><span>Отлично подходит для детей<br /> от 7 лет и взрослых</span></div>
+            </div>
+			<div class="preim_2">
+                <div class="otl n4"><img src="img/preim4.png"/><br /><span>Полнейшая комплектация: пульт,<br /> гарантийный талон, чек, инструкция,<br /> герметичная коробка, колонки,<br /> подсветка + модная и удобная<br /> сумка в подарок от нас :)</span></div>
+    			<div class="otl n5"><img src="img/preim5.png"/><br /><span>Заряжается 1 час от обычной<br /> розетки и проезжает до 40км<br /> на одном заряде</span></div>
+    			<div class="otl n6"><img src="img/preim6.png"/><br /><span>С лёгкостью выдерживает<br /> вес до 100-120кг</span></div>
+            </div>
+		</div>
+	</div>
+	<div class="slide6">
+		<div class="block">
+			<div class="about1">
+            <img src="img/face.png" alt="Привет, я Макс!"/>
+            </div>
+            <div class="about2">
+                <h2>Привет! я Макс, руководитель компании Smart Balance!</h2>
+                    <p>Я прекрасно понимаю, что гироскутер может тебе не понравится или не подойти. Именно поэтому мы даём 14 дней на возврат, и при этом ты ничего не потеряешь. Мы не будем мучать долгими экспертизами, от тебя потребуется только чек и сам гироскутер. Буквально за 5 минут мы сверим серийный номер, а также убедимся в отсутствии каких-то серьёзных повреждений и без вопросов вернём тебе деньги. </p>
+                    <p>А если вдруг гироскутер сломается в первый год, мы без проблем починим его за свой счёт.</p>
+                    <p>Ну а когда будут какие-то вопросы, предложения, или тебя что-то не устроит до или после покупки - ты всегда можешь написать мне ВК, на почту или в вотсапп. Пиши, не стесняйся :)</p>
+            </div>
+		</div>
+	</div>
+    <div class="line2"></div>
+	<div class="slide7">
+		<h2>Гироскутеры оценили уже сотни тысяч<br />людей по всей россии!</h2>
+		<div class="gallery"></div>
+	</div>
+	<div class="slide8">
+            <div class="map">
+            	<div id="over" class="map"></div>
+            	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=Bks-SCOczbhF7hv21cfDyBJUwMmRMSdt&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+            	<div id="inner" class="map"></div>
+            </div>
+            <div id='contacts' class="block">
+                <canvas id="canv"></canvas>
+    			<div class="adress">
+    				<h2>Наши контакты</h2>
+    				<table>
+    					<tr>
+    						<td class="adr">Телефон:</td>
+    						<td>+7 (495) 245-56-67</td>
+    					</tr>
+    					<tr>
+    						<td class="adr">E-mail:</td>
+    						<td>nfo@giroshop.ru</td>
+    					</tr>
+    					<tr>
+    						<td class="adr">Адрес:</td>
+    						<td>Москва, ул. Новорязанская,<br/>дом 2/7, оф.3</td>
+    					</tr>
+    				</table>
+    			</div>
+    		</div>
+
+	</div>
+	<footer>
+        <div class="line3"></div>
+		<div class="block">
+			<div class="copyrite">Smart Balance © 2016. Все права защищены.</div>
+			<div class="whoiswho">Разработка сайта: Олег Ячевский</div>
+		</div>
+	</footer>
+	<div class="forms">
+		<div class="feedback" id="feedback_form">
+			<h3>Связаться с нами</h3>
+			<form id="feedback" action="mail.php" method="get">
+				<input form="feedback" type="text" name="name" placeholder="Ваше имя" autofocus>
+				<input id="phone" form="feedback" type="tel" name="phone" placeholder="Ваш телефон">
+				<button form="feedback" formaction="mail.php">Отправить</button>
+			</form>
+		</div>
+		<div class="order" id="order_form">
+			<div class="order_inner x1">
+				<div class="order_img">
+					<img src="img/model1.png"/>
+				</div>
+			</div>
+			<div class="order_inner x2">
+				<div id="model" class="order_model">Выберите модель</div>
+				<div class="order_price"><span class="order_price_price">Цена:</span><span id="price" class="order_price_value">Выберите цену</span></div>
+				<div class="order_wheel"><span class="order_wheel_descr">Диаметр колес:</span><span id="wheel" class="order_wheel_value">Выберите размер</span></div>
+				<div id="color" class="order_color"></div>
+			</div>
+			<form action="mail.php" id="order" method="get">
+				<input type="text" form="order" name="name2" placeholder="Ваше имя" autofocus>
+				<input type="tel" id="phone2" form="order" name="phone2" placeholder="Ваш телефон">
+				<button form="order" formaction="mail.php">Заказать</button>
+			</form>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+	<script src="js/script2.js"></script>
+</body>
+</html>
